@@ -4,7 +4,7 @@ Ejercicio que consiste en practicar la creacion de clases con herencia.
 
 ## Clases
 
-[Notacion](#notacion)
+[Notacion](#notacion)  
 La clase abstracta de la que heredan las demas es:
 
     Figura
@@ -52,7 +52,7 @@ Una vez creadas estas clases hijas, codifico la clase P2_2_Figuras:
             Desc: Dentro del main codifico cada orden que el ejercicio pide (crear los objetos, bucles, etc). Estas instrucciones vienen detalladas en el repositorio que se indica a                 continuacion.   
         }
     }
-[repositorio del profesor][proferepo]
+[Repositorio del profesor][proferepo]
 
 ## Notacion
 
