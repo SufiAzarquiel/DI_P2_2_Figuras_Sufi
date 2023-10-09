@@ -4,15 +4,15 @@ namespace P2_2_Figuras;
 
 internal class Trianguloequilatero : Figura
 {
-    protected int _lado;
+    protected double _lado;
 
-    public Trianguloequilatero(int lado, Color color)
+    public Trianguloequilatero(double lado, Color color)
     {
         _lado = lado;
         _color = color;
     }
 
-    public int Lado
+    public double Lado
     {
         get => _lado;
         set => _lado = value;
