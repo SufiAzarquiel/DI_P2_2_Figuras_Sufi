@@ -4,8 +4,9 @@ Ejercicio que consiste en practicar la creacion de clases con herencia.
 
 ## Clases
 
-[notacion](#notacion)
+[Notacion](#notacion)
 La clase abstracta de la que heredan las demas es:
+
     Figura
     {
         _color: Color (System.Drawing)
@@ -16,16 +17,21 @@ La clase abstracta de la que heredan las demas es:
     }
 
 De esta clase heredan las clases rectangulo, circulo y triangulo equilatero. Cada una añade un ToString() e implementa el GetArea(). Además añaden los siguientes atributos:
+
     Rectangulo
     {
         _ancho: double
         _largo: double
     }
 
+
+
     Circulo
     {
         _radio: double
     }
+
+
 
     TrianguloEquilatero
     {
@@ -33,6 +39,7 @@ De esta clase heredan las clases rectangulo, circulo y triangulo equilatero. Cad
     }
 
 Una vez creadas estas clases hijas, codifico la clase P2_2_Figuras:
+
     P2_2_Figuras
     {
         ImprimeArea(Figura figura)
@@ -42,14 +49,15 @@ Una vez creadas estas clases hijas, codifico la clase P2_2_Figuras:
 
         Main()
         {
-            Desc: Dentro del main codifico cada orden que el ejercicio pide (crear los objetos, bucles, etc). Estas instrucciones vienen detalladas en: 
-    [repositorio del profesor][proferepo]
+            Desc: Dentro del main codifico cada orden que el ejercicio pide (crear los objetos, bucles, etc). Estas instrucciones vienen detalladas en el repositorio que se indica a                 continuacion.   
         }
     }
+[repositorio del profesor][proferepo]
 
 ## Notacion
 
 Escribo las clases así: 
+
     NOMBRECLASE
     {
         Atributo: _tipo_ (paquete si el atributo es un objeto de una clase)
@@ -60,6 +68,5 @@ Escribo las clases así:
             Desc: _descripcion_
         }
     }
-
 
 [proferepo]: https://github.com/jeatzr/DI_P2_2_Figuras
