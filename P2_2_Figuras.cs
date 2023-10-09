@@ -8,7 +8,7 @@ namespace P2_2_Figuras;
 
 public class P2_2_Figuras
 {
-    static void imprimeArea(Figura figura)
+    static void ImprimeArea(Figura figura)
     {
         // Pongo los 2 puntos para que solo se muestren 2 decimales
         Console.WriteLine($"-Area: {figura.GetArea():0.00}");
@@ -18,15 +18,15 @@ public class P2_2_Figuras
         // Crear instancia de cada uno de los tipos de figuras
         Circulo circulo = new Circulo(2, Color.FromArgb(255, 50, 17, 200));
         Console.WriteLine(circulo);
-        imprimeArea(circulo);
+        ImprimeArea(circulo);
 
         Rectangulo rectangulo = new Rectangulo(7, 10, Color.FromArgb(255, 89, 65, 147));
         Console.WriteLine(rectangulo);
-        imprimeArea(rectangulo);
+        ImprimeArea(rectangulo);
 
         Trianguloequilatero triangulo = new Trianguloequilatero(9, Color.FromArgb(255, 255, 10, 10));
         Console.WriteLine(triangulo);
-        imprimeArea(triangulo);
+        ImprimeArea(triangulo);
 
         // Modificamos un valor cualquiera e imprimimos otra vez
         Console.WriteLine("Modificando un valor de cada figura...");
@@ -35,11 +35,11 @@ public class P2_2_Figuras
         triangulo.Lado = 8;
 
         Console.WriteLine(circulo);
-        imprimeArea(circulo);
+        ImprimeArea(circulo);
         Console.WriteLine(rectangulo);
-        imprimeArea(rectangulo);
+        ImprimeArea(rectangulo);
         Console.WriteLine(triangulo);
-        imprimeArea(triangulo);
+        ImprimeArea(triangulo);
 
         // Creamos 3 figuras mas
         Circulo circulo2 = new Circulo(3, Color.FromArgb(255, 50, 17, 200));
@@ -60,7 +60,7 @@ public class P2_2_Figuras
         foreach (Figura figura in figuras)
         {
             Console.WriteLine(figura);
-            imprimeArea(figura);
+            ImprimeArea(figura);
         }
 
         // Creamos un bucle para recorrer la lista de figuras y poner todas ellas del mismo color rgba(245, 40, 145, 200)
