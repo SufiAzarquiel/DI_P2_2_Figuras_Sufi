@@ -72,6 +72,14 @@ public class P2_2_Figuras
         {
             figura.Color = Color.FromArgb(200, 245, 40, 145);
         }
+
+        // Creamos un bucle que recorra la lista y sume las áreas de todas las figuras y nos la muestre por pantalla
+        double total = 0;
+        foreach (Figura figura in figuras)
+        {
+            total += figura.GetArea();
+        }
+        Console.WriteLine("Suma de todas las areas: " + total);
     }
 
 }
