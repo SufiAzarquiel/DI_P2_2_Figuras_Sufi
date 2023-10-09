@@ -65,6 +65,13 @@ public class P2_2_Figuras
             Console.WriteLine(figura);
             imprimeArea(figura);
         }
+
+        // Creamos un bucle para recorrer la lista de figuras y poner todas ellas del mismo color rgba(245, 40, 145, 200)
+        Console.WriteLine("Modificando el color de todas las figuras...");
+        foreach (Figura figura in figuras)
+        {
+            figura.Color = Color.FromArgb(200, 245, 40, 145);
+        }
     }
 
 }
