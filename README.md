@@ -24,14 +24,10 @@ De esta clase heredan las clases rectangulo, circulo y triangulo equilatero. Cad
         _largo: double
     }
 
-
-
     Circulo
     {
         _radio: double
     }
-
-
 
     TrianguloEquilatero
     {
