@@ -48,13 +48,15 @@ public class P2_2_Figuras
 
         // Creamos una lista y añadimos las figuras
         Console.WriteLine("Creando lista de figuras...");
-        List<Figura> figuras = new List<Figura>();
-        figuras.Add(circulo);
-        figuras.Add(circulo2);
-        figuras.Add(rectangulo);
-        figuras.Add(rectangulo2);
-        figuras.Add(triangulo);
-        figuras.Add(triangulo2);
+        List<Figura> figuras = new List<Figura>
+        {
+            circulo,
+            circulo2,
+            rectangulo,
+            rectangulo2,
+            triangulo,
+            triangulo2
+        };
 
         // Mostramos las figuras y sus areas
         foreach (Figura figura in figuras)
