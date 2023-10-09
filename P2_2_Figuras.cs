@@ -17,17 +17,14 @@ public class P2_2_Figuras
     {
         // Crear instancia de cada uno de los tipos de figuras
         Circulo circulo = new Circulo(2, Color.FromArgb(255, 50, 17, 200));
-        Console.WriteLine("Creando instancia de Circulo...");
         Console.WriteLine(circulo);
         imprimeArea(circulo);
 
         Rectangulo rectangulo = new Rectangulo(7, 10, Color.FromArgb(255, 89, 65, 147));
-        Console.WriteLine("Creando instancia de Rectangulo...");
         Console.WriteLine(rectangulo);
         imprimeArea(rectangulo);
 
         Trianguloequilatero triangulo = new Trianguloequilatero(9, Color.FromArgb(255, 255, 10, 10));
-        Console.WriteLine("Creando instancia de Triangulo equilatero...");
         Console.WriteLine(triangulo);
         imprimeArea(triangulo);
 
@@ -67,7 +64,6 @@ public class P2_2_Figuras
         }
 
         // Creamos un bucle para recorrer la lista de figuras y poner todas ellas del mismo color rgba(245, 40, 145, 200)
-        Console.WriteLine("Modificando el color de todas las figuras...");
         foreach (Figura figura in figuras)
         {
             figura.Color = Color.FromArgb(200, 245, 40, 145);
@@ -79,7 +75,7 @@ public class P2_2_Figuras
         {
             total += figura.GetArea();
         }
-        Console.WriteLine("Suma de todas las areas: " + total);
+        Console.WriteLine($"Suma de todas las areas: {total:0.00}");
     }
 
 }
