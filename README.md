@@ -45,7 +45,8 @@ Una vez creadas estas clases hijas, codifico la clase P2_2_Figuras:
 
         Main()
         {
-            Desc: Dentro del main codifico cada orden que el ejercicio pide (crear los objetos, bucles, etc). Estas instrucciones vienen detalladas en el repositorio que se indica a                 continuacion.   
+            Desc: Dentro del main codifico cada orden que el ejercicio pide (crear los objetos, bucles, etc).  
+            Estas instrucciones vienen detalladas en el repositorio que se indica a continuacion.
         }
     }
 [Repositorio del profesor][proferepo]
